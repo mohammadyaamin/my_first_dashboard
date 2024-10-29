@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Profile</title>
+    <!--======================== Styles Css file ==================================-->
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+
+<body>
+    <!--=======================  Navigation Bar =================================-->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <!-- <li style="position: fixed; border-color: black;"> -->
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="logo-apple"></ion-icon>
+                        </span>
+                        <span class="title">The it Solution Bd</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./dashboard.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./orders.html">
+                        <span class="icon">
+                            <ion-icon name="gift-outline"></ion-icon>
+                        </span>
+                        <span class="title">Orders</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./customer.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Customers</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./product.html">
+                        <span class="icon">
+                            <ion-icon name="cube-outline"></ion-icon>
+                        </span>
+                        <span class="title">Products</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./addProduct.html">
+                        <span class="icon">
+                            <ion-icon name="add-circle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Add Product</span>
+                    </a>
+                </li>
+
+                <!-- <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="title">Messages</span>
+                    </a>
+                </li> -->
+
+                <li>
+                    <a href="./settings.html">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+
+                <!-- <li>
+                    <a href="./profile.html">
+                        <span class="icon">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Profile</span>
+                    </a>
+                </li> -->
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--===============================  Main Body ===================================== -->
+
+
+        <!--================================= Menu ========================================-->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <!--============== search bar ========================-->
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+                <!--======================== user Profile ===================-->
+                <div class="user">
+                    <img src="./adminPanel_Image/customar01.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--============  Cards  ===========-->
+            <div class="productCardBox">
+
+                <div class="card block">
+                    <div class="hover-color">
+                        <div class="profile">
+                            <img src="./adminPanel_Image/customar01.jpg" alt="">
+                            <h3>Mohammad Yeamin</h3>
+                            <p>Customer ID #634759</p>
+
+                        </div>
+                        <div class="profile-details">
+                            Details
+                        </div>
+                        <hr>
+                        <div class="flex py-15">
+                            <p>Username:</p>
+                            <span class="black2">mohammad_yeamin</span>
+                        </div>
+                        <div class="flex">
+                            <p>Email:</p>
+                            <span class="black2">yeaminkhan3312@gmail.com</span>
+                        </div>
+                        <div class="flex py-15">
+                            <p>Status:</p>
+                            <span class="status delivered">Active</span>
+                        </div>
+                        <div class="flex">
+                            <p>Contact:</p>
+                            <span class="black2">+8801912217144</span>
+                        </div>
+                        <div class="flex py-15">
+                            <p>Location:</p>
+                            <span class="black2">Dhaka</span>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">24</div>
+                            <div class="cardName">Total Orders</div>
+                        </div>
+
+                        <div class="iconBx">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card my-30">
+                        <div>
+                            <div class="numbers">$1240</div>
+                            <div class="cardName">Total Spent</div>
+                        </div>
+
+                        <div class="iconBx">
+                            <ion-icon name="wallet-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <div class="numbers">Dhaka</div>
+                            <div class="cardName">Location</div>
+                        </div>
+
+                        <div class="iconBx">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card mt-30">
+                        <div>
+                            <div class="numbers">Wishlist</div>
+                            <div class="cardName"><b>15</b> Items in wishlist</div>
+                        </div>
+
+                        <div class="iconBx">
+                            <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== Order List =====================-->
+            <div class="all-Orders-Details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Orders placed</h2>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>ORDER</td>
+                                <td>PRODUCT</td>
+                                <td>DATE</td>
+                                <td>SPENT</td>
+                                <td>PAYMENT</td>
+                                <td>STATUS</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>#1</td>
+                                <td>HP EliteBook</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#2</td>
+                                <td>Dell Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#3</td>
+                                <td>HP EliteBook</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#4</td>
+                                <td>HP Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$620</td>
+                                <td>Due</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#5</td>
+                                <td>HP Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#6</td>
+                                <td>HP Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#7</td>
+                                <td>HP EliteBook</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#8</td>
+                                <td>HP EliteBook</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$620</td>
+                                <td>Due</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#8</td>
+                                <td>HP EliteBook G6</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$620</td>
+                                <td>Due</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#8</td>
+                                <td>HP EliteBook</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$620</td>
+                                <td>Due</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#5</td>
+                                <td>HP Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#5</td>
+                                <td>HP Laptop 840</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#5</td>
+                                <td>HP Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#5</td>
+                                <td>HP Laptop G6</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#7</td>
+                                <td>Apple Watch</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#7</td>
+                                <td>Apple Watch</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#7</td>
+                                <td>Apple Watch</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#7</td>
+                                <td>Apple Watch</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#6</td>
+                                <td>Dell Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#6</td>
+                                <td>Dell Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#6</td>
+                                <td>Dell Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#6</td>
+                                <td>Dell Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>#6</td>
+                                <td>Dell Laptop</td>
+                                <td>Apr 15, 2023, 10:21</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- =========== Scripts =========  -->
+        <script src="./dashboard.js"></script>
+
+        <!-- ========= ionicons =========== -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
